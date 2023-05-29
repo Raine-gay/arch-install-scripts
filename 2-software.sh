@@ -70,6 +70,12 @@ PKGS=(
         'bluez-libs'                # Bluetooth libraries
         'bluez-firmware'            # Firmware for Broadcom BCM203x and STLC2300 Bluetooth chips
         'blueberry'                 # Bluetooth configuration tool
+    
+    # --- Fonts
+        'noto-fonts'                # 730mb of fonts. Ouch.
+        'noto-fonts-cjk' 
+        'noto-fonts-emoji' 
+        'noto-fonts-extra'
 )
 
 for PKG in "${PKGS[@]}"; do
