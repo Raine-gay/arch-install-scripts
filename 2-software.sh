@@ -70,11 +70,6 @@ PKGS=(
         'bluez-libs'                # Bluetooth libraries
         'bluez-firmware'            # Firmware for Broadcom BCM203x and STLC2300 Bluetooth chips
         'blueberry'                 # Bluetooth configuration tool
-    
-    # --- Development
-        'nodejs'                # Javascript runtime environment
-        'npm'                   # Node package manager
-        'python'                # Scripting language
 )
 
 for PKG in "${PKGS[@]}"; do
