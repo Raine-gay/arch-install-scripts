@@ -4,7 +4,6 @@
 xset -dpms
 xset s off
 
-
 # Larger font for the login shell
 cat <<EOF > /etc/vconsole.conf
 KEYMAP=us
@@ -17,6 +16,7 @@ systemctl enable ntpd.service
 systemctl disable dhcpcd.service
 systemctl disable ssh.service
 systemctl enable NetworkManager.service
+timedatectl --no-ask-password set-ntp 1
 
 # Enable nix-daemon
 systemctl enable nix-daemon.service

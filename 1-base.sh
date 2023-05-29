@@ -23,4 +23,3 @@ echo "LANG=en_GB.UTF-8" >> /etc/locale.conf
 # Timezone crap.
 ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
 hwclock --systohc
-timedatectl --no-ask-password set-ntp 1
