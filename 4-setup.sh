@@ -16,7 +16,7 @@ systemctl enable ntpd.service
 systemctl disable dhcpcd.service
 systemctl disable ssh.service
 systemctl enable NetworkManager.service
-timedatectl --no-ask-password set-ntp 1
+#timedatectl --no-ask-password set-ntp 1 # This seems broken.
 
 # Enable nix-daemon
 systemctl enable nix-daemon.service
