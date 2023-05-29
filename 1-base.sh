@@ -4,6 +4,7 @@
 
 echo "Enter hostname:"
 read hostname
+echo $hostname >> /etc/hostname
 
 # Some CPU shit, Fuck if we know what it does. (We kinda do.)
 nc=$(grep -c ^processor /proc/cpuinfo)
