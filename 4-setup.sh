@@ -12,12 +12,12 @@ EOF
 
 # Networking services
 ntpd -qg
-systemctl enable ntpd.service
-systemctl disable dhcpcd.service
-systemctl disable ssh.service
-systemctl enable NetworkManager.service
+systemctl enable --now ntpd.service
+systemctl disable --now dhcpcd.service
+systemctl disable --now ssh.service
+systemctl enable --now NetworkManager.service
 #timedatectl --no-ask-password set-ntp 1 # This seems broken.
 
 # Enable nix-daemon
-systemctl enable nix-daemon.service
+systemctl --now enable nix-daemon.service
 echo "max-jobs = auto" >> /etc/nix/nix.conf # Allows nixjobs to use full cpu.
