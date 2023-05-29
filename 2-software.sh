@@ -6,7 +6,7 @@ echo
 echo "Installing Base System"
 echo
 
-PKGS = (
+PKGS=(
     # --- XORG Display Rendering. We are still xorg sluts at heart.
         'xorg'                      # Base Package
         'xorg-drivers'              # Display Drivers 
