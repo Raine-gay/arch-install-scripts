@@ -24,8 +24,3 @@ echo "LANG=en_GB.UTF-8" >> /etc/locale.conf
 ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
 hwclock --systohc
 timedatectl --no-ask-password set-ntp 1
-
-echo "If you are using btrfs remeber to add 'btrfs' in the modules section of /etc/mkinitcpio.conf"
-echo "If you are using disk encryption remember to add 'encrypt' in the hooks section of /etc/mkinitcpio.conf"
-echo "Then regenerate using 'mkinitcpio -P'"
-echo "Finally setup the root password using 'passwd'"

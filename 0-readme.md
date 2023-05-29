@@ -11,8 +11,11 @@ This readme contains memory joggers for the pre-chroot steps:
 6. Umount /mnt.
 7. Mount btrfs subvolumes use noatime, zstd, and discard=async if it's an ssd drive.
 8. Add swap if needed.
-9. pacstrap -K /mnt base linux-zen linux-firmware nano git base-devel
+9. pacstrap -K /mnt base linux-zen linux-firmware nano git base-devel networkmanager
 10. Genfstab
 11. arch-chroot /mnt
+12. set password using 'passwd'
+13. set mkinitcpio hooks for btrfs and encryption if needed. ('btrfs' goes in modules) ('encrypt' goes in hooks). Then 'mkinitcpio -P'
+14. install bootloader
 
 A bunch of this is stolen shamelessly from johnynfulleffect/ArchMatic
