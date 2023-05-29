@@ -20,3 +20,4 @@ timedatectl --no-ask-password set-ntp 1
 
 # Enable nix-daemon
 systemctl enable nix-daemon.service
+echo "max-jobs = auto" >> /etc/nix/nix.conf # Allows nixjobs to use full cpu.
