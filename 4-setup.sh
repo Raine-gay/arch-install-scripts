@@ -21,3 +21,6 @@ systemctl enable --now NetworkManager.service
 # Enable nix-daemon
 systemctl --now enable nix-daemon.service
 echo "max-jobs = auto" >> /etc/nix/nix.conf # Allows nixjobs to use full cpu.
+
+# Enable pacman cache cleaning
+systemctl enable --now paccache.timer
