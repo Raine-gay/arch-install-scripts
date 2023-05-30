@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # This is supposed to help secure the system.
+# Run this when logged in as root; not via chroot.
 
 echo "-------------------------------------------------"
 echo "Secure Linux                                     "
