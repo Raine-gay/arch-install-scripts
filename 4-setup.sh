@@ -11,12 +11,12 @@ FONT=ter-v32b
 EOF
 
 # Networking services
-ntpd -qg
+#ntpd -qg
 systemctl enable --now ntpd.service
 systemctl disable --now dhcpcd.service
 systemctl disable --now ssh.service
 systemctl enable --now NetworkManager.service
-#timedatectl --no-ask-password set-ntp 1 # This seems broken.
+timedatectl --no-ask-password set-ntp 1 # This seems broken.
 
 # Enable nix-daemon
 systemctl --now enable nix-daemon.service
