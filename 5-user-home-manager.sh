@@ -17,4 +17,4 @@ nix-shell '<home-manager>' -A install
 
 # allow nonfree nix software
 mkdir $HOME/.config/nixpkgs/
-echo "{ allowUnfree = true; }" >> config.nix
+echo "{ allowUnfree = true; }" >> $HOME/.config/nixpkgs/config.nix
