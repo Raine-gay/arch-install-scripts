@@ -24,3 +24,7 @@ echo "max-jobs = auto" >> /etc/nix/nix.conf # Allows nixjobs to use full cpu.
 
 # Enable pacman cache cleaning
 systemctl enable --now paccache.timer
+
+# Setup the system-update usergroup and add it to sudoers.
+groupadd system-update
+echo "%system-update ALL = /usr/sbin/pacman -Syu" >> /etc/sudoers
