@@ -16,9 +16,9 @@ echo "Changing the compression settings for "$nc" cores."
 sed -i 's/COMPRESSXZ=(xz -c -z -)/COMPRESSXZ=(xz -c -T 16 -z -)/g' /etc/makepkg.conf
 
 # Set locales:
-locale-gen
 sed -i 's/^#en_GB.UTF-8 UTF-8/en_GB.UTF-8 UTF-8/' /etc/locale.gen
 sed -i 's/^#en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
+locale-gen
 echo "LANG=en_GB.UTF-8" >> /etc/locale.conf
 
 # Timezone crap.
