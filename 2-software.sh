@@ -41,7 +41,8 @@ PKGS=(
         'zsh'                       # Interactive shell
         'gst-libav'                 # for parole media player
         'gst-plugins-bad'           # for parole media player
-        'gst-plugins-ugly'           # for parole media player
+        'gst-plugins-ugly'          # for parole media player
+        'pacman-contrib'            # provides paccache cleaning crap
 
     # --- Networking Setup
         'dialog'                    # Enables shell scripts to trigger dialog boxex
