@@ -29,6 +29,7 @@ PKGS=(
         'nix'                       # nix addict moment
         'gvfs'                      # recycle bin n crap
         'gvfs-mtp'                  # phone support
+        'android-file-transfer'     # mount android file systems
         'ntfs-3g'                   # linux support for ntfs
         'btrfs-progs'               # for some reason this sometimes dosen't get installed
         'compsize'                  # calculate btrfs compression ratios
