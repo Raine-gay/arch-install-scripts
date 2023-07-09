@@ -24,6 +24,8 @@ PKGS=(
         'xarchiver'                 # linux winrar.
         'gnome-disk-utility'        # disk management.
         'xfburn'                    # cd burning utility.
+        'seahorse'                  # Gnome keyring gui
+        'gnome-font-viewer'         # Gnome font crap
 
     # --- System Crap
         'nix'                       # nix addict moment
