@@ -26,6 +26,7 @@ PKGS=(
         'xfburn'                    # cd burning utility.
         'seahorse'                  # Gnome keyring gui
         'gnome-font-viewer'         # Gnome font crap
+        'webp-pixbuf-loader'        # Display webp image thumbnails
 
     # --- System Crap
         'nix'                       # nix addict moment
