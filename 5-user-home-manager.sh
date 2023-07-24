@@ -29,3 +29,6 @@ echo "{ allowUnfree = true; }" >> $HOME/.config/nixpkgs/config.nix
 nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
 nix-channel --update
 nix-shell '<home-manager>' -A install
+
+chsh -s /usr/bin/zsh # For some reason if this is not done it will break the xdg data dirs.
+                     # Probably due to home-manager expecting zsh to be enabled but you know. Fuck knows.
