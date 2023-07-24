@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "bootloader",
+        "cryptroot",
+        "devel",
+        "Genfstab",
+        "iwctl",
+        "johnynfulleffect",
+        "mkinitcpio",
+        "networkmanager",
+        "noatime",
+        "pacstrap",
+        "swapon",
+        "zstd"
+    ]
+}
