@@ -11,6 +11,8 @@ nix-channel --update
 nix-channel --add https://github.com/guibou/nixGL/archive/main.tar.gz nixgl && nix-channel --update
 nix-env -iA nixgl.auto.nixGLDefault
 
+mkdir $HOME/.config/
+
 # Clone the home-manager repo
 pushd $HOME/.config/
 git clone https://github.com/Raine-gay/home-manager.git
