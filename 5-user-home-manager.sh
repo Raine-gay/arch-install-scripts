@@ -16,7 +16,7 @@ pushd $HOME/.config/
 git clone https://github.com/Raine-gay/home-manager.git
 
 # Stop tracking the machine-specific configs.
-pushd $HOME/.config/home-manager
+pushd $HOME/.config/home-manager/
 git update-index --skip-worktree _machine-specific/*
 
 # setup home-manager
