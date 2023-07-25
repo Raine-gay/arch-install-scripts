@@ -2,6 +2,7 @@
 
 # This is the user install of home-manager and needed gui components.
 # Remember to add the user to the nix-users group via 'usermod -aG nix-users <username>'
+# It's probably also a good idea to give the user the system-update group via 'usermod -aG system-update <username>'
 # Run this ONLY in the user account that wants home-manager.
 
 nix-channel --add https://nixos.org/channels/nixpkgs-unstable
