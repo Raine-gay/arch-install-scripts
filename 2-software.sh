@@ -73,7 +73,7 @@ PKGS=(
         'bluez-utils'               # Bluetooth development and debugging utilities
         'bluez-libs'                # Bluetooth libraries
         'bluez-firmware'            # Firmware for Broadcom BCM203x and STLC2300 Bluetooth chips
-        'blueberry'                 # Bluetooth configuration tool
+        'blueman'                   # Bluetooth configuration tool
     
     # --- Fonts
         'noto-fonts'                # 730mb of fonts. Ouch.

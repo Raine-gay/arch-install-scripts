@@ -28,3 +28,6 @@ systemctl enable --now paccache.timer
 # Setup the system-update usergroup and add it to sudoers.
 groupadd system-update
 echo "%system-update ALL = /usr/sbin/pacman -Syu" >> /etc/sudoers
+
+# Enable bluetooth.
+systemctl enable --now bluetooth.service
