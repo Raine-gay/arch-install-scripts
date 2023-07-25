@@ -11,7 +11,7 @@ This readme contains memory joggers for the pre-chroot steps:
 6. Umount /mnt.
 7. Mount btrfs subvolumes use noatime, zstd, (and discard=async if it's an ssd drive.)
 8. swapon if needed.
-9. pacstrap -K /mnt base linux-zen linux-firmware nano git base-devel networkmanager
+9. pacstrap -K /mnt base linux linux-firmware nano git base-devel networkmanager
 10. Genfstab
 11. arch-chroot /mnt
 12. run 1-base, and 2-software

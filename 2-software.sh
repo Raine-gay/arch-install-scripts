@@ -92,4 +92,5 @@ echo
 echo "Done!"
 echo "Remember to install graphics drivers if needed! (You can find them in the arch wiki xorg page.)"
 echo "Fuck you nvidia."
+echo "DO NOT USE LINUX-ZEN on nvidia machines. Please for the love of sin, do not fucking do it."
 echo
