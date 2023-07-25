@@ -47,6 +47,7 @@ PKGS=(
         'gst-plugins-bad'           # for parole media player
         'gst-plugins-ugly'          # for parole media player
         'pacman-contrib'            # provides paccache cleaning crap
+        'cups'                      # Printer moment
 
     # --- Networking Setup
         'dialog'                    # Enables shell scripts to trigger dialog boxex
