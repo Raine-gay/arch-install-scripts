@@ -84,6 +84,7 @@ PKGS=(
         'noto-fonts-cjk' 
         'noto-fonts-emoji' 
         'noto-fonts-extra'
+        'cantarell-fonts'
 )
 
 for PKG in "${PKGS[@]}"; do
