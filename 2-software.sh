@@ -85,6 +85,7 @@ PKGS=(
         'noto-fonts-emoji' 
         'noto-fonts-extra'
         'cantarell-fonts'
+        'terminus-font'             # Needed to avoid systemd-vconsole startup errors with missing font files
 )
 
 for PKG in "${PKGS[@]}"; do
