@@ -28,8 +28,6 @@ PKGS=(
         'gnome-font-viewer'         # Gnome font crap
         'webp-pixbuf-loader'        # Display webp image thumbnails
         'xdg-desktop-portal-gtk'    # A requirement of discover & flatpak.
-        'flatpak'                   # Used to install bottles and other sandboxed software.
-        'discorver'                 # KDE flatpak gui
 
     # --- System Crap
         'nix'                       # nix addict moment
