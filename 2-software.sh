@@ -49,7 +49,6 @@ PKGS=(
         'gst-plugins-ugly'          # for parole media player
         'pacman-contrib'            # provides paccache cleaning crap
         'cups'                      # Printer moment
-        'ghostscript'               # Printer moment 2 electric boogaloo
         'ffmpegthumbnailer'         # Video thumbnails
 
     # --- Networking Setup
