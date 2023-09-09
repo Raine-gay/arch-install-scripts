@@ -10,6 +10,7 @@ echo "-------------------------------------------------"
 # --- Setup UFW rules
 ufw allow 80/tcp
 ufw allow 443/tcp
+ufw allow 631/tcp # Allow network printing
 ufw default deny incoming
 ufw default allow outgoing
 ufw enable
