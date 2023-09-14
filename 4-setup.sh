@@ -7,7 +7,7 @@ xset s off
 # Larger font for the login shell
 cat <<EOF > /etc/vconsole.conf
 KEYMAP=us
-FONT=ter-v32b
+FONT=ter-v16b
 EOF
 
 # Networking services
