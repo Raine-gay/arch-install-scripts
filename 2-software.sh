@@ -28,7 +28,8 @@ PKGS=(
         'gnome-font-viewer'         # Gnome font crap
         'webp-pixbuf-loader'        # Display webp image thumbnails
         'xdg-desktop-portal-gtk'    # A requirement of discover & flatpak.
-
+        'vlc'                       # VLC media player.
+        
     # --- System Crap
         'nix'                       # nix addict moment
         'gvfs'                      # recycle bin n crap
