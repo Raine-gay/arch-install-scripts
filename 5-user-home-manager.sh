@@ -24,7 +24,7 @@ git update-index --skip-worktree _machine-specific/*
 
 # allow nonfree nix software
 mkdir $HOME/.config/nixpkgs/
-echo "{ allowUnfree = true; }" >> $HOME/.config/nixpkgs/config.nix
+echo "{ allowUnfree = true; }" > $HOME/.config/nixpkgs/config.nix
 
 # setup home-manager
 nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
