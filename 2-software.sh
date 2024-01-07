@@ -51,6 +51,8 @@ PKGS=(
         'pacman-contrib'            # provides paccache cleaning crap
         'cups'                      # Printer moment
         'ffmpegthumbnailer'         # Video thumbnails
+        'grub'                      # Boot manager
+        'efibootmgr'                # Grub stuff
 
     # --- Networking Setup
         'dialog'                    # Enables shell scripts to trigger dialog boxex
