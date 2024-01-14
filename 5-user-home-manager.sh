@@ -22,9 +22,9 @@ git clone https://github.com/Raine-gay/home-manager.git
 pushd $HOME/.config/home-manager/
 git update-index --skip-worktree _machine-specific/*
 
-# allow nonfree nix software
-mkdir $HOME/.config/nixpkgs/
-echo "{ allowUnfree = true; }" > $HOME/.config/nixpkgs/config.nix
+# allow nonfree nix software. - This does not seem needed anymore. Keeping it for posterity anyways.
+# mkdir $HOME/.config/nixpkgs/
+# echo "{ allowUnfree = true; }" > $HOME/.config/nixpkgs/config.nix
 
 # setup home-manager
 nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
