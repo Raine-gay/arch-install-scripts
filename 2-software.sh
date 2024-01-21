@@ -53,6 +53,8 @@ PKGS=(
         'ffmpegthumbnailer'         # Video thumbnails
         'grub'                      # Boot manager
         'efibootmgr'                # Grub stuff
+        'sqlite'                    # One file relational SQL database
+        'arch-install-scripts'      # arch install tools like pacstrap, & arch-chroot.
 
     # --- Networking Setup
         'dialog'                    # Enables shell scripts to trigger dialog boxex
