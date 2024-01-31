@@ -67,6 +67,7 @@ PKGS=(
         'ufw'                       # Uncomplicated firewall
         'gufw'                      # Firewall GUI manager
         'wireguard-tools'           # wireguard vpn
+        'fail2ban'                  # Prevent brute force attacks over SSH
     
     # --- Audio
         'pipewire'                  # pipewire audio crap
