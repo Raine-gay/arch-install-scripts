@@ -31,3 +31,6 @@ EOF
 # --- Enable ufw
 systemctl enable ufw
 systemctl start ufw
+
+# --- Enable fail2ban
+systemctl enable fail2ban.service
