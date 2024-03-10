@@ -33,4 +33,4 @@ echo "%system-update ALL = /usr/sbin/pacman -Syu" >> /etc/sudoers
 systemctl enable --now bluetooth.service
 
 # Enable reflector.
-systemctl enable --now reflector.service
+systemctl enable --now reflector.timer
