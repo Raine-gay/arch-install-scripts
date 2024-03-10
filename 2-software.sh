@@ -55,6 +55,7 @@ PKGS=(
         'efibootmgr'                # Grub stuff
         'sqlite'                    # One file relational SQL database
         'arch-install-scripts'      # arch install tools like pacstrap, & arch-chroot.
+        'reflector'                 # pacman mirror list bullshit.
 
     # --- Networking Setup
         'dialog'                    # Enables shell scripts to trigger dialog boxex
